@@ -1,0 +1,10 @@
+1. Nonce is a random value. The purpose of nounce is to ensure that the miners are able to successfully validate a block
+
+2. To verify by seeing the 0000 added to the start of the hash. To indentify it by guessing the nounce value. 
+
+3. One of the key elements that make blockchain immutable is cryptographic hashes, which is why blockchain is immutable. The main advantage of hash is that it cannot be reverse-engineered. For example if there are 6 blocks available and someone tries to change/tamper a data in the 3rd block then the rest of the blocks are also become invalid.
+
+4. In a decentralized network, anyone can transact on the ledger. Bitcoin's network uses mining and proof-of- work to maintain the integrity of the ledger. 
+In a centralized network, only known and identified parties can transact on the ledger. Therefore, their transactions can be audited.
+
+5. Where all the nodes are independently validate the entire blockchain and then compared with other nodes. Which ever nodes has majority will be considered as honest chain in the networking (51% of the majority)
